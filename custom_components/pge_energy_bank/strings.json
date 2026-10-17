@@ -1,0 +1,7 @@
+{
+  "config": {
+    "step": {"user": {"title": "Nowy magazyn energii PGE", "description": "Wskaż narastające liczniki netto z Balance Neto. Saldo początkowe zostanie zapisane jako jedna partia energii z wybraną datą pochodzenia.", "data": {"name": "Nazwa magazynu", "import_entity": "Pobór energii netto (kWh)", "export_entity": "Oddanie energii netto (kWh)", "initial_balance": "Saldo początkowe (kWh)", "vintage_date": "Data pochodzenia salda początkowego"}}},
+    "error": {"same_entity": "Import i eksport muszą wskazywać różne encje."}
+  },
+  "options": {"step": {"init": {"title": "Korekta salda magazynu", "description": "UWAGA: Zatwierdzenie zastępuje dotychczasowe partie energii jedną partią o podanej dacie. Z daty tej wynika 12-miesięczny termin wygaśnięcia. Ustaw saldo na bieżący moment (nie historyczną datę odczytu).", "data": {"correction_balance": "Nowy stan magazynu (kWh)", "correction_date": "Data pochodzenia skorygowanego salda"}}}}
+}

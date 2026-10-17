@@ -1,0 +1,10 @@
+DOMAIN = 'pge_energy_bank'
+CONF_IMPORT = 'import_entity'
+CONF_EXPORT = 'export_entity'
+CONF_INITIAL = 'initial_balance'
+CONF_VINTAGE = 'vintage_date'
+CONF_CORRECTION = 'correction_balance'
+CONF_CORRECTION_TOKEN = 'correction_token'
+CONF_CORRECTION_DATE = 'correction_date'
+STORAGE_VERSION = 1
+DEBOUNCE_SECONDS = 40
